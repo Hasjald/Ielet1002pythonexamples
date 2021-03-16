@@ -17,7 +17,7 @@ def main():
         time.sleep(1) #vent i ett sekund
         print()
         print("state er "+str(currentstate)) 
-
+        """Mangler litt logikk"""
         if(currentstate=="null"):
             antall_epler(0)             
         elif(currentstate=="en"):    

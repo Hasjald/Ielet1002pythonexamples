@@ -29,7 +29,7 @@ def main():
         time.sleep(1)
         print()
         print("state er "+str(currentstate))
-        """Mangler litt logikk"""
+         """Mangler en state machine/logikk"""
         if(currentstate=="samle"):
             print1=les_cot(KEY_T,TOKEN_1)                                   #kaller les signal fra cot og får i retur en liste med 2 elementer value og lastvalueime
             datetime_time1 = datetime.datetime.fromtimestamp(print1[1])     #forandrer lastvaluetime til en streng som legges i datatime_time1 variablen

@@ -49,7 +49,7 @@ def main():
         time.sleep(1)
         print()
         print("state er "+str(currentstate))
-        """Mangler litt logikk"""
+         """Mangler en state machine/logikk"""
         if(currentstate=="generer data"): #hent dataen fra generer data 
             
             nextstate=1

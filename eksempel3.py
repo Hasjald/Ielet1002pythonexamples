@@ -40,7 +40,7 @@ def main():
         time.sleep(1)
         print()
         
-        """ mangler state machine """
+         """Mangler en state machine/logikk"""
 
         data=generer_data()
         print(data)
